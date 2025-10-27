@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>November Blessing Conference 2025 - Christ's Heart Church</title>
+    <meta name="description" content="Join us for seven days of powerful ministry, worship, and fellowship at the November Blessing Conference 2025 in Kampala and Mukono, Uganda.">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.0/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for November Blessing Conference 2025 */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+        :root {
+          --primary-yellow: #d97706;
+          --primary-orange: #ea580c;
+          --text-gray: #374151;
+          --light-gray: #f9fafb;
+          --dark-gray: #1f2937;
+        }
+
+        body {
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          line-height: 1.6;
+        }
+
+        @keyframes fadeInUp {
+          from { opacity: 0; transform: translateY(30px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+
+        .hero-content { animation: fadeInUp 1.2s ease-out; }
+        .event-card { transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        .event-card:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); }
+
+        .hamburger-line { transition: all 0.3s ease; }
+        .hamburger-active .hamburger-line:nth-child(1) { transform: rotate(45deg) translate(6px, 6px); }
+        .hamburger-active .hamburger-line:nth-child(2) { opacity: 0; }
+        .hamburger-active .hamburger-line:nth-child(3) { transform: rotate(-45deg) translate(6px, -6px); }
+
+        html { scroll-behavior: smooth; }
+        
+        #back-to-top { transition: all 0.3s ease; }
+        #back-to-top.visible { opacity: 1; }
+        #back-to-top:hover { transform: translateY(-2px); background-color: var(--primary-yellow); }
+
+        a:focus, button:focus { outline: 2px solid var(--primary-yellow); outline-offset: 2px; }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Header -->
+    <header class="absolute top-0 left-0 right-0 z-50 px-4 md:px-8 lg:px-16 py-5 flex justify-between items-center">
+        <div class="w-10 h-10 border-2 border-white flex items-center justify-center text-white font-medium text-xl">
+            C
+        </div>
+        <nav class="hidden md:flex gap-6 lg:gap-10">
+            <a href="#home" class="text-white text-xs tracking-wider uppercase font-normal hover:opacity-70 transition-opacity">HOME</a>
+            <a href="#events" class="text-white text-xs tracking-wider uppercase font-normal hover:opacity-70 transition-opacity">EVENTS</a>
+        </nav>
+        <div class="flex gap-4 md:gap-6 items-center">
+            <span class="hidden sm:inline text-white text-lg cursor-pointer hover:opacity-70 transition-opacity">🔔</span>
+            <span class="hidden sm:inline text-white text-lg cursor-pointer hover:opacity-70 transition-opacity">🔍</span>
+            <div class="flex flex-col gap-1 cursor-pointer md:hidden" id="mobile-menu-btn">
+                <span class="w-6 h-0.5 bg-white transition-all hamburger-line"></span>
+                <span class="w-6 h-0.5 bg-white transition-all hamburger-line"></span>
+                <span class="w-6 h-0.5 bg-white transition-all hamburger-line"></span>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden absolute top-full left-0 right-0 bg-black bg-opacity-90 md:hidden">
+            <nav class="flex flex-col p-4 space-y-4">
+                <a href="#home" class="text-white text-sm tracking-wider uppercase font-normal hover:text-yellow-600 transition-colors">HOME</a>
+                <a href="#events" class="text-white text-sm tracking-wider uppercase font-normal hover:text-yellow-600 transition-colors">EVENTS</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="min-h-screen bg-zinc-50 font-sans">
+        <!-- Hero Section -->
+        <section id="home" class="h-screen bg-gradient-to-r from-yellow-600 to-orange-500 flex items-center justify-center relative overflow-hidden">
+            <div class="absolute inset-0">
+                <img src="november-blessing-main.jpg" alt="November Blessing Conference 2025" class="w-full h-full object-cover opacity-70">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-black/30"></div>
+            </div>
+            <div class="text-center text-white z-10 px-4 hero-content">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4 tracking-wide">NOVEMBER BLESSING</h1>
+                <p class="text-xl md:text-2xl mb-8">Conference 2025</p>
+                <p class="text-lg md:text-xl max-w-2xl mx-auto">Seven days of powerful ministry, worship, and fellowship</p>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events" class="py-12 md:py-24 px-4 md:px-8 lg:px-16 bg-gray-50">
+            <div class="text-center mb-8 md:mb-16">
+                <div class="italic text-yellow-600 text-base md:text-lg mb-4">November Blessing Conference</div>
+                <h2 class="text-2xl md:text-4xl font-normal tracking-wider uppercase text-gray-800 mb-6 relative px-4 md:px-16 inline-block">
+                    <span class="hidden lg:block absolute left-0 top-1/2 w-36 h-px bg-gray-300 transform -translate-y-1/2 -translate-x-44"></span>
+                    CURRENTLY ON VIEW
+                    <span class="hidden lg:block absolute right-0 top-1/2 w-36 h-px bg-gray-300 transform -translate-y-1/2 translate-x-44"></span>
+                </h2>
+                <p class="text-gray-600 text-sm leading-relaxed max-w-2xl mx-auto px-4">
+                    Join us for seven days of powerful ministry, worship, and fellowship at the November Blessing Conference 2025.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mb-12">
+                <!-- Event Card 1 -->
+                <div class="bg-white overflow-hidden event-card hover:shadow-lg transition-all">
+                    <div class="h-72 bg-gradient-to-br from-amber-500 to-orange-600 relative">
+                        <div class="absolute inset-0 bg-black bg-opacity-20"></div>
+                        <div class="absolute inset-0 flex items-center justify-center text-white text-xl font-medium">
+                            Main Sessions
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8">
+                        <div class="italic text-yellow-600 text-sm mb-3">Nov 17 - Nov 21 2025</div>
+                        <h3 class="text-lg md:text-xl font-medium tracking-wider uppercase text-gray-800 mb-5 leading-tight">
+                            MTN ARENA KAMPALA
+                        </h3>
+                        <a href="#" class="text-gray-800 text-xs tracking-wider uppercase border-b border-gray-800 pb-1 hover:text-yellow-600 hover:border-yellow-600 transition-colors">
+                            View more
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Event Card 2 -->
+                <div class="bg-white overflow-hidden event-card hover:shadow-lg transition-all">
+                    <div class="h-72 bg-gradient-to-br from-blue-500 to-indigo-600 relative">
+                        <div class="absolute inset-0 bg-black bg-opacity-20"></div>
+                        <div class="absolute inset-0 flex items-center justify-center text-white text-xl font-medium">
+                            Leadership
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8">
+                        <div class="italic text-yellow-600 text-sm mb-3">Nov 19 - Nov 21 2025</div>
+                        <h3 class="text-lg md:text-xl font-medium tracking-wider uppercase text-gray-800 mb-5 leading-tight">
+                            CHURCH LEADERS SESSION
+                        </h3>
+                        <a href="#" class="text-gray-800 text-xs tracking-wider uppercase border-b border-gray-800 pb-1 hover:text-yellow-600 hover:border-yellow-600 transition-colors">
+                            View more
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Event Card 3 -->
+                <div class="bg-white overflow-hidden event-card hover:shadow-lg transition-all">
+                    <div class="h-72 bg-gradient-to-br from-green-500 to-teal-600 relative">
+                        <div class="absolute inset-0 bg-black bg-opacity-20"></div>
+                        <div class="absolute inset-0 flex items-center justify-center text-white text-xl font-medium">
+                            Fellowship
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8">
+                        <div class="italic text-yellow-600 text-sm mb-3">Nov 22 - Nov 23 2025</div>
+                        <h3 class="text-lg md:text-xl font-medium tracking-wider uppercase text-gray-800 mb-5 leading-tight">
+                            MUKONO CHURCH HQ
+                        </h3>
+                        <a href="#" class="text-gray-800 text-xs tracking-wider uppercase border-b border-gray-800 pb-1 hover:text-yellow-600 hover:border-yellow-600 transition-colors">
+                            View more
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Event Card 4 -->
+                <div class="bg-white overflow-hidden event-card hover:shadow-lg transition-all">
+                    <div class="h-72 bg-gradient-to-br from-purple-500 to-pink-600 relative">
+                        <div class="absolute inset-0 bg-black bg-opacity-20"></div>
+                        <div class="absolute inset-0 flex items-center justify-center text-white text-xl font-medium">
+                            Theme
+                        </div>
+                    </div>
+                    <div class="p-6 md:p-8">
+                        <div class="italic text-yellow-600 text-sm mb-3">Isaiah 37:31</div>
+                        <h3 class="text-lg md:text-xl font-medium tracking-wider uppercase text-gray-800 mb-5 leading-tight">
+                            ROOTED, FERVENT & RADIANT
+                        </h3>
+                        <a href="#" class="text-gray-800 text-xs tracking-wider uppercase border-b border-gray-800 pb-1 hover:text-yellow-600 hover:border-yellow-600 transition-colors">
+                            View more
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button class="px-12 py-4 bg-transparent border border-gray-800 text-gray-800 text-xs tracking-wider uppercase hover:bg-gray-800 hover:text-white transition-colors">
+                    Load more
+                </button>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white py-8 md:py-16 px-4 md:px-8 lg:px-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-16 mb-6 md:mb-10">
+                <div>
+                    <div class="w-12 h-12 border-2 border-white flex items-center justify-center text-2xl mb-6">
+                        C
+                    </div>
+                    <div class="text-sm leading-relaxed text-gray-300 mb-3">
+                        Christ's Heart Church Mukono & Kampala, Uganda
+                    </div>
+                    <div class="text-sm text-gray-300 mb-5">
+                        +256 39 2177825
+                    </div>
+                    <div class="text-xs text-gray-500">
+                        Copyright © Christ's Heart Ministries 2025
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-sm font-medium uppercase tracking-wider mb-6">Conference info</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-300 text-sm hover:text-yellow-600 transition-colors">Events & Shows</a></li>
+                        <li><a href="#" class="text-gray-300 text-sm hover:text-yellow-600 transition-colors">Speakers</a></li>
+                        <li><a href="#" class="text-gray-300 text-sm hover:text-yellow-600 transition-colors">News & Updates</a></li>
+                        <li><a href="#" class="text-gray-300 text-sm hover:text-yellow-600 transition-colors">Register</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-sm font-medium uppercase tracking-wider mb-6">Schedule</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-300 text-sm">Mon 17th — Fri 21st: 5pm — 8:30pm</a></li>
+                        <li><a href="#" class="text-gray-300 text-sm">Leadership: 10am — 1pm</a></li>
+                        <li><a href="#" class="text-gray-300 text-sm">Sat 22nd — Sun 23rd: TBA</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-sm font-medium uppercase tracking-wider mb-6">Follow us</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-300 text-sm hover:text-yellow-600 transition-colors">Facebook</a></li>
+                        <li><a href="#" class="text-gray-300 text-sm hover:text-yellow-600 transition-colors">Instagram</a></li>
+                        <li><a href="#" class="text-gray-300 text-sm hover:text-yellow-600 transition-colors">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Back to Top Button -->
+        <div id="back-to-top" class="fixed bottom-4 right-4 md:bottom-8 md:right-8 w-11 h-11 bg-gray-800 text-white flex items-center justify-center cursor-pointer opacity-0 hover:opacity-100 transition-opacity hover:bg-yellow-600">
+            ↑
+        </div>
+    </div>
+
+    <script>
+        // Mobile menu functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            let isMenuOpen = false;
+
+            mobileMenuBtn.addEventListener('click', function() {
+                isMenuOpen = !isMenuOpen;
+                if (isMenuOpen) {
+                    mobileMenu.classList.remove('hidden');
+                    mobileMenuBtn.classList.add('hamburger-active');
+                } else {
+                    mobileMenu.classList.add('hidden');
+                    mobileMenuBtn.classList.remove('hamburger-active');
+                }
+            });
+
+            // Close mobile menu when clicking on links
+            const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+            mobileMenuLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mobileMenu.classList.add('hidden');
+                    mobileMenuBtn.classList.remove('hamburger-active');
+                    isMenuOpen = false;
+                });
+            });
+
+            // Back to top button
+            const backToTopBtn = document.getElementById('back-to-top');
+            function toggleBackToTop() {
+                if (window.pageYOffset > 300) {
+                    backToTopBtn.style.opacity = '1';
+                } else {
+                    backToTopBtn.style.opacity = '0';
+                }
+            }
+
+            backToTopBtn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+            window.addEventListener('scroll', toggleBackToTop);
+
+            // Smooth scrolling for anchor links
+            const anchorLinks = document.querySelectorAll('a[href^="#"]');
+            anchorLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    if (targetElement) {
+                        const headerHeight = 80;
+                        const targetPosition = targetElement.offsetTop - headerHeight;
+                        window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                    }
+                });
+            });
+
+            // Header background change on scroll
+            const header = document.querySelector('header');
+            function updateHeaderBackground() {
+                if (window.pageYOffset > 50) {
+                    header.style.backgroundColor = 'rgba(0, 0, 0, 0.9)';
+                    header.style.backdropFilter = 'blur(10px)';
+                } else {
+                    header.style.backgroundColor = 'transparent';
+                    header.style.backdropFilter = 'none';
+                }
+            }
+
+            window.addEventListener('scroll', updateHeaderBackground);
+            console.log('November Blessing Conference 2025 - Website loaded successfully!');
+        });
+    </script>
+</body>
+</html>
