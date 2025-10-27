@@ -1,0 +1,531 @@
+/* November Blessing Conference 2025 CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: opacity 0.3s;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+.header-icons {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.header-icons i {
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.header-icons i:hover {
+    opacity: 0.7;
+}
+
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.menu-icon span {
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.3s;
+}
+
+/* Hero Section */
+.hero {
+    height: 500px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="500"><defs><linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:%23333;stop-opacity:1" /><stop offset="100%" style="stop-color:%23666;stop-opacity:1" /></linearGradient></defs><rect fill="url(%23grad)" width="1920" height="500"/></svg>');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-content {
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 54px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0 60px;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: #FFD700;
+}
+
+.hero-theme {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: italic;
+    color: #FFD700;
+    margin-bottom: 8px;
+}
+
+.hero-scripture {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.hero-dates {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFD700;
+}
+
+.hero-content h1::before,
+.hero-content h1::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 200px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.hero-content h1::before {
+    left: -220px;
+}
+
+.hero-content h1::after {
+    right: -220px;
+}
+
+/* Events Section */
+.events-section {
+    padding: 100px 60px;
+    background-color: #f8f8f8;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-subtitle {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: #FFD700;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.section-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 0 60px;
+    display: inline-block;
+}
+
+.section-title::before,
+.section-title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 150px;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.section-title::before {
+    left: -170px;
+}
+
+.section-title::after {
+    right: -170px;
+}
+
+.section-description {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.8;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Events Grid */
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.event-card {
+    background-color: #fff;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.event-image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.event-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.event-card:hover .event-image img {
+    transform: scale(1.1);
+}
+
+.event-content {
+    padding: 30px 25px;
+}
+
+.event-date {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: #FFD700;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.event-time {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.event-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.view-more-btn {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #333;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.view-more-btn:hover {
+    color: #FFD700;
+    border-color: #FFD700;
+}
+
+/* Load More Button */
+.load-more-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.load-more-btn {
+    display: inline-block;
+    padding: 15px 50px;
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.load-more-btn {
+    display: inline-block;
+    padding: 18px 60px;
+    background-color: #FFD700;
+    color: #333;
+    border: 2px solid #FFD700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+.load-more-btn:hover {
+    background-color: transparent;
+    color: #FFD700;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+}
+
+/* Footer */
+footer {
+    background-color: #2a2a2a;
+    color: #fff;
+    padding: 60px 60px 40px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 60px;
+    margin-bottom: 40px;
+}
+
+.footer-logo {
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+    padding: 12px 20px;
+    border-radius: 3px;
+}
+
+.footer-email {
+    font-size: 13px;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.speakers-card .event-image img {
+    filter: brightness(1.1);
+}
+
+.speakers-card:hover .event-image img {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+.footer-address {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+.footer-phone {
+    font-size: 13px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.footer-copyright {
+    font-size: 12px;
+    color: #999;
+}
+
+.footer-column h4 {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 12px;
+}
+
+.footer-column ul li a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 13px;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #FFD700;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 45px;
+    height: 45px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s, background-color 0.3s;
+}
+
+.back-to-top.visible {
+    opacity: 1;
+}
+
+.back-to-top:hover {
+    background-color: #FFD700;
+    color: #333;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .events-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px 30px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .hero-content h1::before,
+    .hero-content h1::after,
+    .section-title::before,
+    .section-title::after {
+        display: none;
+    }
+}
+
+
+/* Additional November Blessing Styles */
+.hero-attendance {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+.event-details-extra {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    color: #888;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.footer-mission {
+    font-size: 12px;
+    color: #ccc;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.footer-website, .footer-social {
+    font-size: 13px;
+    color: #ccc;
+    margin-bottom: 8px;
+}
