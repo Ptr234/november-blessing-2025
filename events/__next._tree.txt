@@ -1,0 +1,11 @@
+1:"$Sreact.fragment"
+2:I[97367,["/november-blessing-2025/_next/static/chunks/ff1a16fafef87110.js","/november-blessing-2025/_next/static/chunks/247eb132b7f7b574.js"],"ViewportBoundary"]
+4:I[97367,["/november-blessing-2025/_next/static/chunks/ff1a16fafef87110.js","/november-blessing-2025/_next/static/chunks/247eb132b7f7b574.js"],"MetadataBoundary"]
+5:"$Sreact.suspense"
+7:I[27201,["/november-blessing-2025/_next/static/chunks/ff1a16fafef87110.js","/november-blessing-2025/_next/static/chunks/247eb132b7f7b574.js"],"IconMark"]
+:HL["/november-blessing-2025/_next/static/chunks/9fa079bcce6427f4.css","style"]
+:HL["/november-blessing-2025/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/november-blessing-2025/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"K89LM8bMYp1C2uuap1b-A","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"events","paramType":null,"paramKey":"events","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"head":["$","$1","h",{"children":[null,["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isHeadPartial":false,"staleTime":300}
+3:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:[["$","title","0",{"children":"November Blessing Conference 2025 - Christ's Heart Church"}],["$","meta","1",{"name":"description","content":"Join us for seven days of powerful ministry, worship, and fellowship at the November Blessing Conference 2025 in Kampala and Mukono, Uganda."}],["$","link","2",{"rel":"icon","href":"/november-blessing-2025/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L7","3",{}]]
